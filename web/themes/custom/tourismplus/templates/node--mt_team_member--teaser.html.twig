@@ -1,0 +1,42 @@
+{% extends "node.html.twig" %}
+{#
+/**
+ * @file
+ * Tourism+'s theme implementation to display a Team member node.
+ */
+#}
+{% block meta_area %}
+  {% if content.field_mt_member_photo|render %}
+    <div class="photo-container">
+      {{ content.field_mt_member_photo }}
+    </div>
+  {% endif %}
+  {{ title_prefix }}
+  {% if not page %}
+    <h2{{ title_attributes.addClass('node__title') }}>
+      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+    </h2>
+  {% endif %}
+  {{ title_suffix }}
+  {% if content.field_mt_subtitle|render %}
+    {{ content.field_mt_subtitle }}
+  {% endif %}
+  {% if display_submitted %}
+    <div class="node__meta">
+      {{ author_picture }}
+      <span{{ author_attributes.addClass('node__submitted-info') }}>
+        {% trans %}
+          <span class="node__submitted-info-text">By</span> {{ author_name }} on 
+          <span class="node__submitted-date">
+            {{ date }}
+          </span>
+        {% endtrans %}
+      </span>
+      {{ metadata }}
+    </div>
+  {% endif %}
+{% endblock %}
+{% block content %}
+  {{ attach_library('tourismplus/node-team-member') }}
+  {{ content|without('field_mt_member_photo','field_mt_subtitle') }}
+{% endblock %}

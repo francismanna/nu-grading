@@ -1,0 +1,42 @@
+/**
+ * @file
+ * Visual styles for Tourism+'s team member content type.
+ */
+.page-node-type-mt-team-member h1.page-title {
+  margin-bottom: 10px;
+}
+.photo-container {
+  position: relative;
+  margin: 0 0 20px 0;
+}
+.node--type-mt-team-member .field--name-field-mt-subtitle {
+  font-size: 15px;
+  font-style: italic;
+}
+.region--dark-typography .node--type-mt-team-member .field--name-field-mt-subtitle {
+  color: #a8a8a8;
+}
+
+/*lists*/
+.node--type-mt-team-member .list-unstyled li {
+  margin-bottom: 5px;
+}
+
+/*teaser view mode*/
+.node--type-mt-service .node--type-mt-team-member.node--view-mode-teaser {
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+.node--type-mt-team-member.node--view-mode-teaser .photo-container {
+  width: 100px;
+  height: 70px;
+  padding-right: 30px;
+  float: left;
+}
+.node--type-mt-team-member.node--view-mode-teaser .photo-container ~ .node__title,
+.node--type-mt-team-member.node--view-mode-teaser .photo-container ~ .field--name-field-mt-subtitle {
+  margin-left: 100px;
+}
+.node--type-mt-team-member.node--view-mode-teaser .node__header ~ div {
+  clear: both;
+}

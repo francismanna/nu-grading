@@ -1,0 +1,12 @@
+{#
+/**
+ * @file
+ * Tourism+'s theme implementation to display a Product node.
+ */
+#}
+
+{% extends "node.html.twig" %}
+{% block content %}
+  {{ attach_library('tourismplus/node-product') }}
+  {{ content }}
+{% endblock %}
