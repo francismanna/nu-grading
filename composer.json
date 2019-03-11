@@ -24,6 +24,7 @@
         "drupal/auto_entitylabel": "^2.1@beta",
         "drupal/autologout": "^1.0",
         "drupal/better_exposed_filters": "^3.0@alpha",
+        "drupal/bulk_user_registration": "^1.1@alpha",
         "drupal/captcha": "^1.0@beta",
         "drupal/chosen": "^2.6",
         "drupal/clamav": "^1.1",

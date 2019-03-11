@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "119a5e5c6ef4f3f0a4742005951c31f4",
+    "content-hash": "1cb78cf6c588b3b7cbc675f3195bd9a5",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2040,6 +2040,10 @@
                     "homepage": "https://www.drupal.org/user/86106"
                 },
                 {
+                    "name": "dww",
+                    "homepage": "https://www.drupal.org/user/46549"
+                },
+                {
                     "name": "googletorp",
                     "homepage": "https://www.drupal.org/user/386230"
                 },
@@ -2078,7 +2082,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.24",
-                    "datestamp": "1527523080",
+                    "datestamp": "1542915180",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2240,8 +2244,16 @@
                     "homepage": "https://www.drupal.org/user/981944"
                 },
                 {
+                    "name": "boshtian",
+                    "homepage": "https://www.drupal.org/user/1773456"
+                },
+                {
                     "name": "dandrews",
                     "homepage": "https://www.drupal.org/user/2014490"
+                },
+                {
+                    "name": "darksnow",
+                    "homepage": "https://www.drupal.org/user/391915"
                 },
                 {
                     "name": "johnennew",
@@ -2298,7 +2310,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0-alpha5",
-                    "datestamp": "1540513084",
+                    "datestamp": "1550449381",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -2335,6 +2347,58 @@
             "homepage": "https://www.drupal.org/project/better_exposed_filters",
             "support": {
                 "source": "http://cgit.drupalcode.org/better_exposed_filters"
+            }
+        },
+        {
+            "name": "drupal/bulk_user_registration",
+            "version": "1.1.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/bulk_user_registration",
+                "reference": "8.x-1.1-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bulk_user_registration-8.x-1.1-alpha1.zip",
+                "reference": "8.x-1.1-alpha1",
+                "shasum": "2f57467bd0d9191064993f589ed470359dc773aa"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1-alpha1",
+                    "datestamp": "1525014184",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Shamsher Alam",
+                    "homepage": "https://www.drupal.org/u/Shamsher_Alam",
+                    "role": "Author"
+                },
+                {
+                    "name": "naveen.sunkara",
+                    "homepage": "https://www.drupal.org/user/3554863"
+                }
+            ],
+            "description": "The simple Drupal module to import user from CSV",
+            "homepage": "https://drupal.org/project/bulk_user_registration",
+            "support": {
+                "source": "http://cgit.drupalcode.org/bulk_user_registration"
             }
         },
         {
@@ -2712,7 +2776,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha4",
-                    "datestamp": "1511555675",
+                    "datestamp": "1550176380",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -3098,7 +3162,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.2",
-                    "datestamp": "1536851884",
+                    "datestamp": "1546203481",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3486,7 +3550,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.3",
-                    "datestamp": "1519992183",
+                    "datestamp": "1546599484",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3533,7 +3597,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0",
-                    "datestamp": "1493401742",
+                    "datestamp": "1549603381",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4085,7 +4149,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0-alpha3",
-                    "datestamp": "1536231180",
+                    "datestamp": "1546263480",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -4256,7 +4320,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.9",
-                    "datestamp": "1541188681",
+                    "datestamp": "1550692543",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4280,14 +4344,6 @@
                 {
                     "name": "RobLoach",
                     "homepage": "https://www.drupal.org/user/61114"
-                },
-                {
-                    "name": "cosmicdreams",
-                    "homepage": "https://www.drupal.org/user/42579"
-                },
-                {
-                    "name": "geerlingguy",
-                    "homepage": "https://www.drupal.org/user/389011"
                 },
                 {
                     "name": "inders",
@@ -4330,7 +4386,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.4",
-                    "datestamp": "1537819680",
+                    "datestamp": "1543425180",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4510,6 +4566,10 @@
             ],
             "authors": [
                 {
+                    "name": "thalles",
+                    "homepage": "https://www.drupal.org/user/3589086"
+                },
+                {
                     "name": "ufku",
                     "homepage": "https://www.drupal.org/user/9910"
                 }
@@ -4658,7 +4718,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.7",
-                    "datestamp": "1517255284",
+                    "datestamp": "1546543380",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4928,7 +4988,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.7",
-                    "datestamp": "1535726393",
+                    "datestamp": "1550692511",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5168,7 +5228,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.4",
-                    "datestamp": "1542376380",
+                    "datestamp": "1543325580",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5188,14 +5248,6 @@
                 {
                     "name": "SaschaHannes",
                     "homepage": "https://www.drupal.org/user/3536189"
-                },
-                {
-                    "name": "dakku",
-                    "homepage": "https://www.drupal.org/user/97634"
-                },
-                {
-                    "name": "rackberg",
-                    "homepage": "https://www.drupal.org/user/2806873"
                 }
             ],
             "description": "Restricts access to nodes by taxonomy terms in relation to users and their roles.",
@@ -5210,7 +5262,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/printable",
-                "reference": "536c669635e53b0a816dbc42aeee2edd35f15275"
+                "reference": "d5c6b9da4d1ae3aa865818efe8e5f7a7430dd121"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -5227,8 +5279,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0+22-dev",
-                    "datestamp": "1526022484",
+                    "version": "8.x-1.0+36-dev",
+                    "datestamp": "1544094780",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -5255,7 +5307,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/printable"
             },
-            "time": "2018-06-20T06:04:58+00:00"
+            "time": "2018-12-06T11:15:58+00:00"
         },
         {
             "name": "drupal/prlp",
@@ -5428,7 +5480,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta4",
-                    "datestamp": "1506790444",
+                    "datestamp": "1550891284",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -5453,7 +5505,7 @@
                     "homepage": "https://www.drupal.org/user/536298"
                 },
                 {
-                    "name": "olofjohansson",
+                    "name": "olofbokedal",
                     "homepage": "https://www.drupal.org/user/1198438"
                 },
                 {
@@ -5493,7 +5545,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-rc1",
-                    "datestamp": "1496331809",
+                    "datestamp": "1548970380",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -5624,7 +5676,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.5",
-                    "datestamp": "1532513585",
+                    "datestamp": "1550305085",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5811,7 +5863,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.11",
-                    "datestamp": "1542564480",
+                    "datestamp": "1552334285",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5942,7 +5994,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.2",
-                    "datestamp": "1517739480",
+                    "datestamp": "1544460480",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6362,7 +6414,7 @@
                 },
                 "drupal": {
                     "version": "8.x-5.0-rc26",
-                    "datestamp": "1541466481",
+                    "datestamp": "1543520280",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -6437,7 +6489,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/webform_civicrm",
-                "reference": "7ea31a30586f31e8ea08e90f695c2ba22214e7ad"
+                "reference": "823e673f618a8d64a91a20955c46078760256a12"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -6450,7 +6502,7 @@
                 },
                 "drupal": {
                     "version": "8.x-5.x-dev",
-                    "datestamp": "1538524681",
+                    "datestamp": "1538524976",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -6481,7 +6533,7 @@
                 "error": "Invalid dependency: \"civicrm\" is an unknown drupal 8 package name",
                 "issues": "https://www.drupal.org/project/issues/webform_civicrm"
             },
-            "time": "2018-10-02T19:33:48+00:00"
+            "time": "2018-11-12T21:33:20+00:00"
         },
         {
             "name": "drupal/webform_invitation",
@@ -6547,7 +6599,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/webform_query",
-                "reference": "418190996a22f3b4eed2e682d331ad0229d9dc4e"
+                "reference": "bf633b2bc1310395563674bbc984cd4ea1d9128f"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -6560,7 +6612,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1540360380",
+                    "datestamp": "1550013180",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -6582,7 +6634,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/webform_query"
             },
-            "time": "2018-10-25T22:26:56+00:00"
+            "time": "2019-02-14T00:10:32+00:00"
         },
         {
             "name": "drupal/webform_rest",
@@ -6609,7 +6661,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.0-beta1",
-                    "datestamp": "1537417681",
+                    "datestamp": "1543288980",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -6646,7 +6698,7 @@
                 },
                 "drupal": {
                     "version": "8.x-5.0-rc26",
-                    "datestamp": "1541466481",
+                    "datestamp": "1543520280",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -8597,7 +8649,7 @@
             ],
             "authors": [
                 {
-                    "name": "Sebastien MALOT",
+                    "name": "Sebastien Malot",
                     "email": "sebastien@malot.fr"
                 }
             ],
@@ -9643,7 +9695,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -12373,6 +12425,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2018-08-09T05:50:03+00:00"
         },
         {
@@ -13191,6 +13244,7 @@
     "stability-flags": {
         "drupal/auto_entitylabel": 10,
         "drupal/better_exposed_filters": 15,
+        "drupal/bulk_user_registration": 15,
         "drupal/captcha": 10,
         "drupal/coffee": 10,
         "drupal/conditional_fields": 15,
