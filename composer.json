@@ -18,6 +18,7 @@
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
+        "dompdf/dompdf": "^0.8.3",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/address": "^1.4",
         "drupal/admin_toolbar": "^1.24",
@@ -90,10 +91,11 @@
         "drupal/webform_invitation": "^1.0@beta",
         "drupal/webform_query": "1.x-dev",
         "drupal/webform_rest": "^2.0@beta",
-        "drupal/webform_submission_import": "1.x",
+        "drupal/webform_submission_import": "1.x-dev",
         "drupal/webform_views": "^5.0@alpha",
         "drupal/xmlsitemap": "^1.0@alpha",
         "drush/drush": "^9.0.0",
+        "mikehaertl/phpwkhtmltopdf": "^2.4",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
